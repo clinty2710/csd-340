@@ -1,0 +1,71 @@
+/*
+Clint Steadman
+Mod 5 assignments
+1/27/23
+CSD340 
+steadman_EX4.css
+*/
+
+h1, h3 {
+    text-align: center;
+    font-weight: 400;
+    color: rgba(185, 63, 8);
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    column-gap: 50px;
+  }
+
+#image-gallery {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+img {
+    width: 400px;
+    height: 350px;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+    font-weight: 400;
+    color: rgba(185, 63, 8);
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+body {
+    background-color:rgba(247, 112, 24, 0.2);
+}
+
+.grid-item {
+    border-color: rgba(185, 63, 8);
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+
+.footer{
+    float: right;
+    margin-top: 10%;
+    padding-bottom: 20px;
+}
+
+a {
+    float: right;
+    font-family: "Oswald", Verdana, Arial, sans-serif;
+    padding: 20px;
+    text-decoration: none;
+ }
+
+ a:hover {
+    text-decoration: underline;
+ }

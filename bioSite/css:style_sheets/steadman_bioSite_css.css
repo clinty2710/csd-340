@@ -1,0 +1,98 @@
+/*
+Clint Steadman
+Mod 7.3 assignment
+2/10/23
+CSD340 biSite
+steadman_bioSite_css.css
+*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Yeseva One', cursive;*/
+}
+header {
+    /*background-color: #00312E;
+    color: #FAD3D8;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+#navbar {
+    background-color: #FAD3D8;
+    border-bottom: #E090AD solid 15px;
+    overflow: hidden;
+}
+
+#navbar a {
+    color: #006255;
+    display: block;
+    float: left;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #006255;
+    color: #E090AD;
+}
+
+#container {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+}
+
+.card-title {
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+footer  {
+    background-color: #00312E;
+    color: #FAD3D8;
+    float: right;
+    font-style: italic;
+    font-weight: 400;
+    padding-right: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #FAD3D8;
+    font-style: italic;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

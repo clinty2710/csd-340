@@ -1,0 +1,125 @@
+/*
+Clint Steadman
+CSD340 Mod 9 assignment
+2/19/23
+Steadman_EX6.css
+*/
+
+body {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+header {
+    background-color: #00312E;
+    color: #FAD3D8;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+#navbar {
+    background-color: #FAD3D8;
+    border-bottom: #E090AD solid 15px;
+    overflow: hidden;
+}
+
+#navbar a {
+    color: #006255;
+    display: block;
+    float: left;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #006255;
+    color: #E090AD;
+}
+
+#container {
+    margin: 2% 5% 100px 5%;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+}
+
+.card-title {
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#movies {
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+#movies th {
+    background-color: #FAD3D8;
+    color: #006255;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    text-align: left;
+}
+
+#movies th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+footer  {
+    background-color: #00312E;
+    color: #FAD3D8;
+    float: right;
+    font-style: italic;
+    font-weight: 400;
+    left: 0;
+    padding-right: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#copyright {
+    float: left;
+}
+
+#links {
+    float:right
+}
+
+footer p {
+    text-align: left;
+}
+
+footer p {
+    color: #FAD3D8;
+    font-style: italic;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FAD3D8;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

@@ -126,7 +126,7 @@ h4 {
     overflow: hidden;
 }
 
-#container {
+#container1, #container2 {
     margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;

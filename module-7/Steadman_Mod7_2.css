@@ -35,11 +35,6 @@ h1 {
     text-decoration: none;
 }
 
-#navbar a:hover {
-    background-color: #006255;
-    color: #E090AD;
-}
-
 #container {
     margin-top: 2%;
     margin-left: 5%;

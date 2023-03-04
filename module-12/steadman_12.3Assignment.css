@@ -131,6 +131,10 @@ h4 {
     margin-left: 5%;
     margin-right: 5%;
     padding: 10px;
+    display: grid;
+    column-gap: auto;
+    overflow: hidden;
+    min-width: fit-content;
 }
 
 .card {
@@ -146,6 +150,10 @@ h4 {
     font-weight: 400;
     text-align: center;
     margin: 10px auto 10px auto;
+}
+
+.grid-item {
+    padding: 5px;
 }
 
 .card-content {
@@ -178,6 +186,4 @@ figcaption {
     font-family: 'Oswald', Verdana, Arial, sans-serif;
 }
 
-.grid-item {
-    padding: 5px;
-}
+
